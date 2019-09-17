@@ -1,0 +1,205 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body,
+p {
+  margin: 0;
+}
+h1 {
+  margin-top: 0;
+} */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.head-section {
+  margin: 30px;
+}
+
+.head-section ul li img {
+  position: relative;
+  width: 180px;
+}
+
+.head-section ul li {
+  display: inline-block;
+  /* background-color: #1089ff; */
+  font-weight: 600;
+  font-size: .8em;
+}
+
+/* .head-section ul li span{
+
+} */
+.right-align {
+  text-align: right;
+}
+
+.head-section ul li:last-child {
+  /* this will access the last element of list*/
+  text-align: right;
+  vertical-align: right;
+  float: right;
+  /* margin-top: 2px; */
+  border: solid 1px #0069ff;
+  padding: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+  color: #1089ff;
+}
+
+.head-section ul li:first-child {
+  /* this will access the first element of list*/
+  /* text-align: right;
+  vertical-align:right; */
+  float: left;
+  margin-top: -5px;
+  /* margin-top: 5px; */
+}
+
+/* this will access the 1, 2, 3, 4, 5, 7  element of list*/
+.head-section ul li:nth-child(1), li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6) {
+  margin-right: 30px;
+}
+
+.content-section {
+  text-align: left;
+  margin-top: 30px;
+  background-color: #0069ff;
+  /* background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjanakirammsv%2Ffiles%2F2017%2F02%2FDigitalOcean.jpg"); */
+  padding: 200px;
+}
+
+.content-section h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 3.5em;
+  margin-bottom: 30px;
+  color: #f9f9f9;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content-section p {
+  text-align: left;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  word-spacing: .1em;
+  font-family: 'Manjari', sans-serif;
+  color: #f9f9f9;
+}
+
+.client-section {
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+.client-section h1 {
+  font-size: 1.2em;
+  /* margin-top: 50px; */
+  padding-top: 50px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.client-section img {
+  max-width: 200px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.client-section ul li {
+  display: inline-block;
+  /* background-color: #0069ff; */
+}
+
+.client-section ul li:first-child {
+  /* this will access the first element of list*/
+  margin-top: -5px;
+  /* background-color: #0069ff; */
+}
+
+#signup-form {
+  background-color: #f9f9f9;
+  float: right;
+  margin-top: -400px;
+  padding: 30px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#signup-form h2 {
+  margin-bottom: 30px;
+}
+
+#signup-form button {
+  border-radius: 4px;
+  padding-bottom: 10px;
+  padding-right: 153px;
+  padding-left: 150px;
+  background-color: #0069ff;
+  text-decoration: none;
+  border-color: #0069ff;
+  color: #f9f9f9;
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+#signup-form input {
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  text-decoration: none;
+  border: solid 1px #e5e5e5;
+  color: #f9f9f9;
+  font-family: 'Manjari', sans-serif;
+  font-size: 1.2em;
+  font-style: bold;
+}
+
+#signup-form p {
+  margin-top: 30px;
+  color: black;
+  font-family: 'Manjari', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#signup-form ul {
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+#signup-form ul li {
+  background-color: #CBE8F2;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 3px;
+  border: solid 1px #e5e5e5;
+}
+
+#signup-form ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#signup-form li:hover {
+  border: none;
+  background: orange;
+  box-shadow: 0px 0px 1px #777;
+}
